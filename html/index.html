@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Bank</title>
+     <!-- tailwind css added -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="mx-auto bg-green-300">
+    <header>
+        <h1 class="font-extrabold text-center mt-4 mb-5 text-4xl">Welcome to <span class="text-red-500">Simple Bank</span>!!!</h1>
+
+    </header>
+    <main>
+        <section class="bg-purple-400 p-5 mx-auto align-middle w-3/4 justify-center rounded-lg ">
+           <div class="p-5 ml-5">
+            <h3 class="font-semibold mb-3">Please Login</h3>
+            <input type="email" id="email_btn"
+            class="block w-9/12 p-1.5" id="" placeholder="enter your email..">
+            
+            <input type="password" id="pass_btn" class="block my-3 w-9/12 p-1.5" name="" id="" placeholder="enter your password..">
+            
+            <button id="submit_btn"  class="text-white bg-yellow-500 py-2 px-5 rounded-lg hover:bg-yellow-600">Submit</button>
+            
+           </div>        
+        </section>
+        <script src="/js/login.js"></script>
+
+    </main>
 </body>
 </html>
