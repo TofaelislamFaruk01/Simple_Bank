@@ -6,6 +6,8 @@ document.getElementById('submit_btn').addEventListener('click',function () {
     if (emailBtn.value === 'rana' && passBtn.value === '1234')
     {
         console.log('login success');
+        emailBtn.value = '';
+        passBtn.value = '';
         window.location.href = 'bank.html';
     }
     else {
